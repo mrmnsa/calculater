@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">helloWorld</string>
+    <string name="why_so">why so</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="string">输</string>
+    <string name="_5">5</string>
+    <string name="_AC">AC</string>
+    <string name="delete">+/-</string>
+    <string name="remain">%</string>
+    <string name="div">/</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="multi">*</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="sub">-</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="add">+</string>
+    <string name="_0">0</string>
+    <string name="point">.</string>
+    <string name="edu">=</string>
+    <string name="out">输入/结果展示区</string>
+    <string name="extraction">√</string>
+</resources>

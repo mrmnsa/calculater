@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple_200"
+        android:columnCount="4"
+        android:gravity="center"
+        android:rowCount="6">
+
+        <EditText
+            android:id="@+id/butW"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill_horizontal"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/out" />
+
+        <EditText
+            android:id="@+id/butResult"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill_horizontal"
+            android:text="" />
+
+        <Button
+            android:id="@+id/butAC"
+            android:layout_height="96dp"
+            android:text="@string/_AC" />
+
+        <Button
+            android:id="@+id/butDelete"
+
+            android:layout_height="96dp"
+            android:text="@string/delete" />
+
+        <Button
+            android:id="@+id/butRemain"
+
+            android:layout_height="96dp"
+            android:text="@string/remain" />
+
+        <Button
+            android:id="@+id/butDiv"
+
+            android:layout_height="96dp"
+            android:text="@string/div" />
+
+        <Button
+
+            android:id="@+id/but7"
+
+            android:layout_height="96dp"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/but8"
+
+            android:layout_height="96dp"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/but9"
+
+            android:layout_height="96dp"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/butMulti"
+            android:layout_height="96dp"
+            android:text="@string/multi" />
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_height="96dp"
+
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/but5"
+
+            android:layout_height="96dp"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/but6"
+
+            android:layout_height="96dp"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/butSub"
+
+            android:layout_height="96dp"
+            android:text="@string/sub" />
+
+        <Button
+            android:id="@+id/but1"
+
+            android:layout_height="96dp"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/but2"
+
+            android:layout_height="96dp"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/but3"
+
+            android:layout_height="96dp"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/butAdd"
+
+            android:layout_height="96dp"
+            android:text="@string/add" />
+
+        <Button
+
+            android:id="@+id/but0"
+            android:layout_height="96dp"
+
+            android:text="@string/_0" />
+
+
+        <Button
+            android:id="@+id/butPing"
+
+            android:layout_height="96dp"
+            android:text="@string/extraction" />
+
+        <Button
+            android:id="@+id/butPoint"
+
+            android:layout_height="96dp"
+            android:text="@string/point" />
+
+
+        <Button
+            android:id="@+id/butEdu"
+
+            android:layout_height="96dp"
+            android:text="@string/edu" />
+    </GridLayout>
+
+
+</LinearLayout>
